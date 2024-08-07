@@ -1,19 +1,19 @@
-# docs.nil.foundation
+# Documentation portal for [[alloc] init]
 
-This repository houses the public documentation for =nil; Foundation. 
+This repository houses the public documentation for [[alloc] init]
 
 ## Usage
 
 Clone the repo:
 
 ```bash
-git clone git@github.com:NilFoundation/docs.nil.foundation.git
+git clone git@github.com:alloc-init/docs.allocin.it.git
 ```
 
 Install all dependencies:
 
 ```bash
-cd docs.nil.foundation
+cd docs.allocin.it
 yarn
 ```
 
@@ -47,7 +47,7 @@ All four sets of docs are rendered as a single React app configured in `docusaur
 
 Perform the following actions if something needs to be changed in the docs:
 
-* Click on [Issues](https://github.com/NilFoundation/docs.nil.foundation/issues)
+* Click on [Issues](https://github.com/alloc-init/docs.allocin.it/issues)
 * Select **New issue**
 * Select a suitable issue template
 * Fill the template and submit the issue
