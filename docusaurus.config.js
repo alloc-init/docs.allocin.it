@@ -16,15 +16,15 @@ const config = {
   favicon: 'img/nil-logo.png',
 
   // Set the production url of your site here
-  url: 'https://docs.nil.foundation/',
+  url: 'https://docs.allocin.it/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '=nil; Foundation', // Usually your GitHub org/user name.
-  projectName: 'docs.nil.foundation', // Usually your repo name.
+  organizationName: '[[alloc] init]', // Usually your GitHub org/user name.
+  projectName: 'docs.allocin.it', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -154,14 +154,14 @@ const config = {
 
         },
         navbar: {
-          title: '=nil; Foundation',
+          title: '[[alloc] init]',
           logo: {
             src: 'img/nil-logo.png',
           },
           items: [
             {
               position: 'left',
-              label: '=nil;',
+              label: 'zkSharding',
               to: '/nil/intro'
             },
             {
@@ -193,17 +193,17 @@ const config = {
                 },
                 {
                   label: 'GitHub',
-                  to: 'https://github.com/nilfoundation'
+                  to: 'https://github.com/alloc-init'
                 },
                 {
                   label: 'Telegram',
-                  to: 'https://t.me/nilfoundation'
+                  to: 'https://t.me/alloc-init'
                 }
               ],
             }
           ],
           style: 'dark',
-          copyright: `Copyright © ${new Date().getFullYear()} =nil; Foundation`,
+          copyright: `Copyright © ${new Date().getFullYear()} [[alloc] init]`,
         },
         prism: {
           defaultLanguage: 'clike',
