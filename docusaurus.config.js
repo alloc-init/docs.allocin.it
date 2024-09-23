@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '=nil; Foundation Documentation Portal',
+  title: '[[alloc] init] Documentation Portal',
   tagline: '',
   favicon: 'img/nil-logo.png',
 
