@@ -20,11 +20,11 @@ const config = {
   url: 'https://docs.allocin.it/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs.allocin.it/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '[[alloc] init]', // Usually your GitHub org/user name.
+  organizationName: 'alloc-init', // Usually your GitHub org/user name.
   projectName: 'docs.allocin.it', // Usually your repo name.
 
   onBrokenLinks: 'log',
