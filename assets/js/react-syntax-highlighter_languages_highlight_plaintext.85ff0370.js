@@ -1,0 +1,1 @@
+(self.webpackChunknil_docs=self.webpackChunknil_docs||[]).push([[2979],{81832:e=>{e.exports=function(e){return{name:"Plain text",aliases:["text","txt"],disableAutodetect:!0}}}}]);

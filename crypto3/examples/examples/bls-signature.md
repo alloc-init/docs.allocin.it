@@ -1,3 +1,0 @@
-# BLS Signature
-
-Coming Soon!

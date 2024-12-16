@@ -1,0 +1,1 @@
+(self.webpackChunknil_docs=self.webpackChunknil_docs||[]).push([[1895],{9507:n=>{n.exports=function(n){return{aliases:["pycon"],contains:[{className:"meta",starts:{end:/ |$/,starts:{end:"$",subLanguage:"python"}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}}}]);

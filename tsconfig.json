@@ -1,9 +1,0 @@
-{
-    "extends": "@docusaurus/tsconfig",
-    "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "modules": ["../node_modules/"]
-      }
-    }
-  }

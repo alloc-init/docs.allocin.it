@@ -1,3 +1,0 @@
-# Sublime Text
-
-Coming Soon

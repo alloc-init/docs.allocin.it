@@ -1,3 +1,0 @@
-# CLion
-
-Coming Soon

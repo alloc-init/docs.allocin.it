@@ -1,0 +1,1 @@
+(self.webpackChunknil_docs=self.webpackChunknil_docs||[]).push([[8705],{72841:n=>{n.exports=function(n){return{name:"Node REPL",contains:[{className:"meta",starts:{end:/ |$/,starts:{end:"$",subLanguage:"javascript"}},variants:[{begin:/^>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}}}]);
