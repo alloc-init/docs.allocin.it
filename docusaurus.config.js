@@ -14,7 +14,7 @@ import remarkCodeSnippets from 'nil-remark-code-snippets';
 const config = {
   title: '[[alloc] init] Documentation Portal',
   tagline: '',
-  favicon: 'img/nil-logo.png',
+  favicon: 'img/icon.png',
 
   // Set the production url of your site here
   url: 'https://docs.allocin.it/',
@@ -45,9 +45,8 @@ const config = {
       /** @type {import('@khannanov-nil/openrpc-docusaurus/dist/preset').Options} */
       ({
         docs: {
-          path: "nil",
-          routeBasePath: "nil",
-          sidebarPath: require.resolve("./sidebar-nil.js"),
+          path: "alloc_init",
+          routeBasePath: "alloc_init",
           remarkPlugins: [remarkMath, remarkCodeSnippets],
           rehypePlugins: [rehypeKatex],
           openrpc: {
@@ -67,7 +66,7 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
   plugins: [
-    'docusaurus-plugin-goatcounter'
+    'docusaurus-plugin-goatcounter' // We might need to generate a new api frr this.
     ,
     [
       'nil-docusaurus-plugin-typedoc',
@@ -77,9 +76,6 @@ const config = {
         fileExtension: ".mdx",
         useCodeBlocks: true,
         parametersFormat: "htmlTable",
-        entryPoints: [
-          'node_modules/@nilfoundation/niljs/dist/niljs.cjs'
-        ],
         tsconfig: `tsconfig.json`,
         skipErrorChecking: true,
         sidebar: {
@@ -102,8 +98,7 @@ const config = {
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
       type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
     },
   ],
@@ -111,7 +106,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     (
       {
-
         algolia: {
           appId: 'KDQGY81FVN',
           apiKey: '8ad8d801f2775ff3cf8c4433dfe290e4',
@@ -132,50 +126,37 @@ const config = {
         navbar: {
           title: '[[alloc] init]',
           logo: {
-            src: 'img/nil-logo.png',
+            src: 'img/logoshort.png',
           },
           items: [
             {
-              label: 'Documentation',
               position: 'left',
-              label: 'zkSharding',
-              to: '/nil/intro'
+              label: 'Theory & Concepts',
+              to: '/alloc_init/'
             },
             {
-              label: 'Cookbook',
+              label: 'Manifesto',
               position: 'left',
-              to: '/nil/cookbook'
+              to: '/alloc_init/manifesto'
             },
             {
-              label: 'Migration guides',
+              label: 'Architecture',
               position: 'left',
-              to: 'nil/migration-guides/september-1709-2024-release'
+              to: '/alloc_init/architecture'
             },
             {
               type: 'dropdown',
-              label: 'Developer tools',
+              label: 'Research & Papers',
               position: 'right',
               items: [
                 {
-                  label: 'Block explorer',
-                  href: 'https://explore.nil.foundation/'
+                  label: 'Architecture',
+                  href: 'https://www.notion.so/allocinit/PIPEs-Architecture-16636974087f80afa92fe3fe7bcc0eb1'
                 },
                 {
-                  label: 'Solidity extension',
-                  href: 'https://github.com/NilFoundation/nil_cli/blob/master/Nil.sol'
+                  label: 'Bitcoin PIPEs',
+                  href: 'https://www.allocin.it/uploads/placeholder-bitcoin.pdf'
                 },
-                {
-                  label: '=nil; CLI',
-                  href: 'https://github.com/NilFoundation/nil_cli/tree/master'
-                },
-                {
-                  label: 'Client library',
-                  href: 'https://www.npmjs.com/package/@nilfoundation/niljs'
-                },
-                {
-                  label: 'Hardhat plugin',
-                  href: 'https://github.com/NilFoundation/nil-hardhat-example'
-                }
               ]
             }
           ],
