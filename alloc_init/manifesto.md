@@ -1,6 +1,4 @@
-# Placeholder
-
-Hello world 
+# Manifesto
 
 ## Introduction: People are begging to become cows
 
